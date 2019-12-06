@@ -2,9 +2,9 @@ const fs = require('fs');
 const path = require('path')
 
 module.exports = {
-    saveDatabase(countries, database) {
+    saveDatabase(data, database) {
         console.log((path.resolve(__dirname, 'data', `${database}.json`)));
         fs.writeFile(path.resolve(__dirname, 'data', `${database}.json`), 
-                     JSON.stringify(countries, null, 4), () => {});
+                     JSON.stringify(data, null, 4), () => {});
     }
 }
