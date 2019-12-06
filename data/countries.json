@@ -1,0 +1,37 @@
+[
+    {
+        "id": "BRA",
+        "code": "BRA",
+        "name": "Brasil"
+    },
+    {
+        "id": "USA",
+        "code": "USA",
+        "name": "Estados Unidos"
+    },
+    {
+        "id": "ARG",
+        "code": "ARG",
+        "name": "Argentina"
+    },
+    {
+        "code": "CAN",
+        "name": "Canadá",
+        "id": "CAN"
+    },
+    {
+        "code": "CAN",
+        "name": "Canadá",
+        "id": "CAN"
+    },
+    {
+        "code": "CAN",
+        "name": "Canadá",
+        "id": "CAN"
+    },
+    {
+        "code": "CAN",
+        "name": "Tim Hortons",
+        "id": "CAN"
+    }
+]
