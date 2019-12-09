@@ -8,7 +8,9 @@ module.exports = {
         const page = req.query.page || 1;
 
         Object.keys(req.query).map((key) => {
-            countries = countries.filter((c) => c[key].toUpperCase().includes(req.query[key].toUpperCase()));
+			if (key !== 'pageSize' && key !== 'page' && key !== 'fields' && key !== 'order') {
+				countries = countries.filter((c) => c[key].toUpperCase().includes(req.query[key].toUpperCase()));
+			}
         })
         
         const countriesResponse = countries.slice((page - 1) * pageSize, pageSize * page);

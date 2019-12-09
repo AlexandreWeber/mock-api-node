@@ -8,7 +8,9 @@ module.exports = {
         const page = req.query.page || 1;
         
         Object.keys(req.query).map((key) => {
-            customers = customers.filter((c) => c[key].toUpperCase().includes(req.query[key].toUpperCase()));
+			if (key !== 'pageSize' && key !== 'page' && key !== 'fields' && key !== 'order') {
+				customers = customers.filter((c) => c[key].toUpperCase().includes(req.query[key].toUpperCase()));
+			}
         })
 
         const customersResponse = customers.slice((page - 1) * pageSize, pageSize * page);
