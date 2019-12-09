@@ -21,9 +21,10 @@ POST   - Cria um novo registro\
 DELETE - Remover um registro, deve ser informado o code /customer/:code
 
 # Iniciar serviço
-- Executar o comando npm i
+- Executar o comando npm i e npm install -g nodemon
 - Executar o comando nodemon server.js
 - Deverá apresentar a mensagem listen on 3000
 - A API estará disponível nos caminhos:
-http://localhost:3000/customer
+http://localhost:3000/customer\
 http://localhost:3000/country
+- A aplicação faz load automático das alterações após salvar, não é necessário reiniciar o serviço quando for realizada alguma alteração no JSON com os dados ou nos controllers por exemplo
