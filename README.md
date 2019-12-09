@@ -5,7 +5,7 @@
 
 # Métodos 
 QUERY  - Retorna todos os registros, permite filtrar por todos os campos retornados\
-       - A busca não é case sensitive e a pesquisa não é exata é sempre com o includes ('like') 
+       - A busca não é case sensitive e a pesquisa não é exata é sempre com o includes ('like')\
 GET    - Retornar apenas um registro, deve ser informado o code /customer/:code\
 PUT    - Altera um registro, deve ser informado o code /customer/:code\
 POST   - Cria um novo registro\
@@ -16,7 +16,7 @@ DELETE - Remover um registro, deve ser informado o code /customer/:code
 
 # Métodos 
 QUERY  - Retorna todos os registros, permite filtrar por todos os campos retornados\
-       - A busca não é case sensitive e a pesquisa não é exata é sempre com o includes ('like') 
+       - A busca não é case sensitive e a pesquisa não é exata é sempre com o includes ('like')\
 GET    - Retornar apenas um registro, deve ser informado o code /customer/:code\
 PUT    - Altera um registro, deve ser informado o code /customer/:code\
 POST   - Cria um novo registro\
