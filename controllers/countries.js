@@ -4,7 +4,7 @@ const utils = require('../utils');
 module.exports = {
 	query(req, res) {
         let countries = data;
-        const pageSize = req.query.pageSize || 5;
+        const pageSize = req.query.pageSize || 10;
         const page = req.query.page || 1;
 
         Object.keys(req.query).map((key) => {
