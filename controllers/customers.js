@@ -3,8 +3,9 @@ const utils = require('../utils');
 
 module.exports = {
 	query(req, res) {
-		const customers = utils.copyArray(data);
-		const { pageSize = 20, page = 1, order, fields, queries } = req.query;
+		let customers = utils.copyArray(data);
+		const { pageSize = 20, page = 1, order, fields } = req.query;
+		const queries = req.query;
 
 		if (queries) {
 			customers = utils.applyQueryFilter(customers, queries);
