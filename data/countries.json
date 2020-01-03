@@ -2,7 +2,7 @@
     {
         "id": "BRA",
         "code": "BRA",
-        "name": "Brasil"
+        "name": "Brasil 22333"
     },
     {
         "id": "USA",
@@ -33,5 +33,10 @@
         "code": "CAN",
         "name": "Tim Hortons",
         "id": "CAN"
+    },
+    {
+        "id": "USA2",
+        "code": "USA2",
+        "name": "Estados Unidos2"
     }
 ]

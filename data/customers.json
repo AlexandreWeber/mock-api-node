@@ -3,10 +3,10 @@
         "id": "087;1",
         "company": "087",
         "code": 1,
-        "shortName": "João 123",
+        "shortName": "João",
         "name": "Joãozinho Maria da Silva",
         "country": "BRA",
-        "status": 1
+        "status": 2
     },
     {
         "id": "087;2",
