@@ -24,10 +24,10 @@ API desenvolvida para facilitar os treinamentos front-end,  os dados retornados 
 |Método  |Descrição | URL |
 |--|--|--|
 | **GET** |Retorna todos os registros, permite filtrar por todos os campos retornados através de query-params. A busca não é case sensitive e a pesquisa não é exata é sempre com o includes ('like')  | /country?code=BRA
-|**GET**|Retorna apenas um registro, deve ser informado o code |/country/:code|
-|**PUT**|Altera um registro, deve ser informado o code | /country/:code|
+|**GET**|Retorna apenas um registro, deve ser informado o id |/country/:id|
+|**PUT**|Altera um registro, deve ser informado o id | /country/:id|
 |**POST**|Cria um novo registro| /country
-|**DELETE**|Remover um registro, deve ser informado o code | /country/:code|  
+|**DELETE**|Remover um registro, deve ser informado o id | /country/:id|  
 
 # Iniciando o serviço
 
