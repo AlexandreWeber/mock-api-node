@@ -74,10 +74,11 @@ module.exports = {
 	},
 
 	delete(req, res) {
-		const id = parseInt(req.params.id, 10);
+		const id = req.params.id;
 		const countries = data;
 
-		const index = countries.findIndex((c) => c.code === id);
+		const index = countries.findIndex((c) => c.code.toUpperCase() === id.toUpperCase());
+		console.log(id);
 		
 		if (index === -1) {
 			return res.status(400).json({error: `País não encontrado com o código ${id}`});
